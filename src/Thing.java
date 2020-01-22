@@ -1,13 +1,14 @@
 public class Thing {
-    String name;
-    String description;
+    String name;    //Add new String here
+    String description; // add new String here
 
-    public Thing(String name, String description){
+    
+    public Thing(String name, String description){  // The constructer
         this.name = name;
         this.description = description;
     }
 
-    public String toString (){
+    public String toString (){    //toString method
         return name + "," + description;
     }
 }
