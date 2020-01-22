@@ -1,0 +1,38 @@
+// Example Output - Phase 1
+
+Person Name: Person
+Place Name: Place Description: Place Description
+Thing Name: Thing Description: Thing Description
+Place Name: Place Description: New Description for Place
+Thing Name: Thing Description: New Description for Thing
+Thing object was correctly updated
+Place object was correctly updated
+
+// Example output - Phase 2
+
+List 0: [EMPTY]
+List 1: [Person 0]
+List 2: [Person 0, Person 1]
+List 3: [Person 0, Person 1, Person 2]
+Contains should be true: true
+List 2: [Person 0, Person 1]
+List 1: [Person 0]
+List 0: [EMPTY]
+
+// Example output - Phase 3
+
+ ========== Phase 3 Tests ==========
+Test Place number of People (should be 0): 0
+Test Place number of People (should be 1): 1
+Test Place number of People (should be 2): 2
+People Currently at Place: [Person1, Person2]
+index: 1 temp: Person2
+DEBUG (Place): Person: Person2 was removed
+Person removed (should be true): true
+Test Place number of People (should be 1): 1
+Test Place number of People (should be 2): 2
+People Currently at Place: [Person1, Person3]
+DEBUG (Place): Person not found on list, can't be removed
+Person not in list removed (should be false): false
+Test Place number of People (should be 2): 2
+People Currently at Place: [Person1, Person3]
