@@ -13,9 +13,9 @@ public class Place {
 
     public String getDescription(){
         return description;
-    }
+    }   //getDescription method
 
-    public void setDescription(String newDescription){
+    public void setDescription(String newDescription){    //change description to a newDescription
         description = newDescription;
     }
 }
