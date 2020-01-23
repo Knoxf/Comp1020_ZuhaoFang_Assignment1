@@ -8,6 +8,14 @@ public class Place {
     }
 
     public String toString(){     // toString method
-        return name + "," + description;
+        return name;
+    }
+
+    public String getDescription(){
+        return description;
+    }
+
+    public void setDescription(String newDescription){
+        description = newDescription;
     }
 }

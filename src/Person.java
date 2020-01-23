@@ -1,4 +1,5 @@
 public class Person {
+
     String name;    //Add new String here
     String description; // add new String here
 
@@ -8,6 +9,16 @@ public class Person {
     }
 
     public String toString(){          // To String method
-        return name + "," + description;
+        return name;
+    }
+
+    public String getDescription(){
+        return description;
+    }
+
+    public void setDescription(String newDescription){
+        description = newDescription;
     }
 }
+
+
