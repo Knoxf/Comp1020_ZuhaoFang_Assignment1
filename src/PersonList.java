@@ -38,7 +38,7 @@ public class PersonList {
                 str = str + thePersonArray[i].toString() + ",";          //add the name to the Str
             }
         }
-        return str.substring(0, str.length()-1);       //delete the last one character this one is delete the " , " and return the string
+        return str.substring(0, str.length()-1) + "]";       //delete the last one character this one is delete the " , " and return the string
     }
 }
 
