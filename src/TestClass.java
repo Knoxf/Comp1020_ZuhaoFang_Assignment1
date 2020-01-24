@@ -15,6 +15,7 @@ public class TestClass {
         Person p3 = new Person("Mush" , "p3");//created person object
         Person p4 = new Person("Skr" , "p4");//created person object
 
+
         PersonList newPersonList = new PersonList();  // Created new personList
         newPersonList.addPerson(p1);   //Store p1 to the newPersonList
         newPersonList.addPerson(p2);   //Store p1 to the newPersonList
@@ -23,6 +24,11 @@ public class TestClass {
 
         System.out.println(newPersonList.size());   //test the counter is working or not
         System.out.println(newPersonList.toString()); //print the PersonList by toString method test that is working
+
+        Person p5 = new Person("Skrs" , "p4121");//created person object but not add to the list
+        System.out.println(newPersonList.findIndex(p5));    //check p5 is on the list or  not
+        System.out.println(newPersonList.findIndex(p2));    //check p2 is on the list or not
+
     }
 
 }

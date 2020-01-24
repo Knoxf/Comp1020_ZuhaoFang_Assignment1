@@ -3,3 +3,5 @@ Place class
 Thing class
 4
 [Knox,Amy,Mush,Skr]
+-1
+1
