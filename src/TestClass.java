@@ -27,8 +27,11 @@ public class TestClass {
 
         // for check reason i change the findIndex method to the public after check changed back to private
         Person p5 = new Person("Skrs" , "p4121");//created person object but not add to the list
-        System.out.println(newPersonList.findIndex(p5));    //check p5 is on the list or  not
-        System.out.println(newPersonList.findIndex(p2));    //check p2 is on the list or not
+       // System.out.println(newPersonList.findIndex(p5));    //check p5 is on the list or  not
+        //System.out.println(newPersonList.findIndex(p2));    //check p2 is on the list or not
+
+        System.out.println(newPersonList.containsPerson(p2));
+        System.out.println(newPersonList.containsPerson(p5));
 
     }
 

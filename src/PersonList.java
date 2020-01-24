@@ -42,11 +42,11 @@ public class PersonList {
         return str.substring(0, str.length()-1) + "]";       //delete the last one character this one is delete the " , " and return the string
     }
 
-    private int findIndex(Person findingPersom){                //Find the gived person object Index number
-        int indexNum = 0;                                           //The index number
+    private int findIndex(Person key){                //Find the gived person object Index number
+        int indexNum = -1;                                           //The index number
 
         for(int i = 0; i<thePersonArray.length;i++){     // Staring loop
-            if(thePersonArray[i] == findingPersom){      // Check thePersonArray[i] is equal or not
+            if(thePersonArray[i] == key){      // Check thePersonArray[i] is equal or not
                 indexNum = i;                            // if is Found set indexNum to the location number
                 break;                                   // and break the loop
             }else{
@@ -56,6 +56,20 @@ public class PersonList {
         return indexNum;
     }
 
+    public boolean containsPerson(Person key){
+        boolean isFound = false;
+
+        if(findIndex(key) == -1){
+            isFound = false;
+        }else{
+            isFound = true;
+        }
+        return isFound;
+    }
+
+   // public Person[] removePerson(Person key){
+
+  //  }
 
 }
 
