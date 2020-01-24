@@ -30,8 +30,8 @@ public class TestClass {
        // System.out.println(newPersonList.findIndex(p5));    //check p5 is on the list or  not
         //System.out.println(newPersonList.findIndex(p2));    //check p2 is on the list or not
 
-        System.out.println(newPersonList.containsPerson(p2));
-        System.out.println(newPersonList.containsPerson(p5));
+        System.out.println(newPersonList.containsPerson(p2));   //To test the containsPerson method is can find it return true
+        System.out.println(newPersonList.containsPerson(p5));   //To test the containsPerson method is can not find it return false
 
     }
 
