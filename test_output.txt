@@ -1,3 +1,5 @@
 Person class
 Place class
 Thing class
+4
+[Knox,Amy,Mush,Skr]

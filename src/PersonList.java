@@ -9,11 +9,6 @@ public class PersonList {
 
 
         //check if any number is not null and let counter++ to get how many data on the array
-        for(int i = 0; i<thePersonArray.length; i++){
-            if(thePersonArray[i] != null){
-                counter++;
-            }
-        }
     }
 
     public void addPerson(Person newPerson){
@@ -27,6 +22,12 @@ public class PersonList {
     }
 
     public int size(){
+        //check if any number is not null and let counter++ to get how many data on the array
+        for(int i = 0; i<thePersonArray.length; i++){
+            if(thePersonArray[i] != null){
+                counter++;
+            }
+        }
         return counter;
     }
 
