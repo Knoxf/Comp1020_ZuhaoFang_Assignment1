@@ -42,7 +42,7 @@ public class PersonList {
         return str.substring(0, str.length()-1) + "]";       //delete the last one character this one is delete the " , " and return the string
     }
 
-    public int findIndex(Person findingPersom){                //Find the gived person object Index number
+    private int findIndex(Person findingPersom){                //Find the gived person object Index number
         int indexNum = 0;                                           //The index number
 
         for(int i = 0; i<thePersonArray.length;i++){     // Staring loop
@@ -55,5 +55,7 @@ public class PersonList {
         }
         return indexNum;
     }
+
+
 }
 
