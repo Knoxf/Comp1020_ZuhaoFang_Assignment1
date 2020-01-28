@@ -56,20 +56,44 @@ public class PersonList {
         return indexNum;
     }
 
-    public boolean containsPerson(Person key){
-        boolean isFound = false;
+    public boolean containsPerson(Person key){       // reuse the FindIndex method
+        boolean isFound ;
 
-        if(findIndex(key) == -1){
-            isFound = false;
+        if(findIndex(key) == -1){              //If findIndex is equal -1
+            isFound = false;                   //set isFound boolean variable to false
         }else{
-            isFound = true;
+            isFound = true;                    //set isFound boolean variable to true
         }
-        return isFound;
+        return isFound;                        //return the isFound
     }
 
-   // public Person[] removePerson(Person key){
+    public Person removePerson(Person key) {
+        Person[] afterRemove = new Person[thePersonArray.length];
 
-  //  }
+        for (int i = 0; i < thePersonArray.length; i++) {
+            if (thePersonArray[i] == key) {
+                thePersonArray[i] = null;
+            }
+        }
+
+        for (int i = 0; i < thePersonArray.length; i++) {
+            if (thePersonArray[i] != null) {
+                thePersonArray[i] = afterRemove[i];
+            }
+        }
+
+        for (int i = 0; i < thePersonArray.length; i++) {
+            afterRemove[i] = thePersonArray[i];
+        }
+
+        for (int i = 0; i < thePersonArray.length; i++) {
+            if (thePersonArray[i] == key) {
+                thePersonArray[i] = key;
+            }
+
+        }
+        return key;
+    }
 
 }
 
