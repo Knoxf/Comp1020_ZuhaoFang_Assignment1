@@ -33,6 +33,9 @@ public class TestClass {
         System.out.println(newPersonList.containsPerson(p2));   //To test the containsPerson method is can find it return true
         System.out.println(newPersonList.containsPerson(p5));   //To test the containsPerson method is can not find it return false
 
+        System.out.println(newPersonList.removePerson(p2)); //to test the P2 is already remove from array
+        System.out.println(newPersonList.toString());
+
     }
 
 }
