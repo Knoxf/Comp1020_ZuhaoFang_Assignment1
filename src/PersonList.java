@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class PersonList {
 
     int counter = 0;
@@ -68,31 +72,35 @@ public class PersonList {
     }
 
     public Person removePerson(Person key) {
-        Person[] afterRemove = new Person[thePersonArray.length];   // Created the new Person array to stone the thePersonArray after remove
+        Person[] removedList = new Person[thePersonArray.length];
+        Person found = key;
 
-        for (int i = 0; i < thePersonArray.length; i++) {        //find the array and removed
-            if (thePersonArray[i] == key) {
-                thePersonArray[i] = null;
+        for(int i=0; i<thePersonArray.length;i++){
+            if(thePersonArray[i] == key){
+                found = thePersonArray[i];
             }
         }
 
-        for (int i = 0; i < thePersonArray.length; i++) {              // copy the array after remove without null
-            if (thePersonArray[i] != null) {
-                thePersonArray[i] = afterRemove[i];
-            }
+        for(int i=0; i<thePersonArray.length;i++){
+            removedList[i] = thePersonArray[i];
         }
 
-        for (int i = 0; i < thePersonArray.length; i++) {             //copy the array to the original array
-            afterRemove[i] = thePersonArray[i];
+        List<Person> tempList = Arrays.asList(removedList);
+
+        List<Person> tempLists = new ArrayList<Person>(tempList);
+        if(tempList.contains(key)){
+
+            tempLists.remove(key);
         }
 
-        for (int i = 0; i < thePersonArray.length; i++) {          //find the key parameter in the new array that after remove person
-            if (thePersonArray[i] == key) {
-                thePersonArray[i] = key;
-            }
+        Person[] finalversion = (Person[]) tempLists.toArray();
 
+        for(int i=0;i<thePersonArray.length;i++){
+            thePersonArray[i] = finalversion[i];
         }
-        return key;                                           //return the key that found in the new array
+
+
+        return found;
     }
 
 }
