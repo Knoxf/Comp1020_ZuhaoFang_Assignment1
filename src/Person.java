@@ -8,6 +8,10 @@ public class Person {
         this.description = description;
     }
 
+    public Person(){
+
+    }
+
     public String toString(){          // To String method
         return name;
     }   //To String method
