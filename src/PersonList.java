@@ -73,13 +73,13 @@ public class PersonList {
 
     public Person removePerson(Person key) {
         Person founder = key;
-        for(int i=0;i<thePersonArray.length;i++){
+        for(int i=0;i<thePersonArray.length;i++){     //Find the key in thePersonArray
             if(thePersonArray[i] == key){
                 founder = thePersonArray[i];
             }
         }
 
-        for(int i=0;i<thePersonArray.length;i++){
+        for(int i=0;i<thePersonArray.length;i++){    //Remove item from thePersonArray
             if (thePersonArray[i] == key){
                 thePersonArray[i] = null;
             }
