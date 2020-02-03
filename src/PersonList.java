@@ -72,35 +72,19 @@ public class PersonList {
     }
 
     public Person removePerson(Person key) {
-        Person[] removedList = new Person[thePersonArray.length];
-        Person found = key;
-
-        for(int i=0; i<thePersonArray.length;i++){
+        Person founder = key;
+        for(int i=0;i<thePersonArray.length;i++){
             if(thePersonArray[i] == key){
-                found = thePersonArray[i];
+                founder = thePersonArray[i];
             }
         }
 
-        for(int i=0; i<thePersonArray.length;i++){
-            removedList[i] = thePersonArray[i];
-        }
-
-        List<Person> tempList = Arrays.asList(removedList);
-
-        List<Person> tempLists = new ArrayList<Person>(tempList);
-        if(tempList.contains(key)){
-
-            tempLists.remove(key);
-        }
-
-        Person[] finalversion = (Person[]) tempLists.toArray();
-
         for(int i=0;i<thePersonArray.length;i++){
-            thePersonArray[i] = finalversion[i];
+            if (thePersonArray[i] == key){
+                thePersonArray[i] = null;
+            }
         }
-
-
-        return found;
+        return founder;
     }
 
 }
