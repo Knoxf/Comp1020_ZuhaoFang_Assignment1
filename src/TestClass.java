@@ -36,6 +36,8 @@ public class TestClass {
         System.out.println("Already remove item " + newPersonList.removePerson(p2)); //to test the P2 is already remove from array
         System.out.println(newPersonList.toString());
 
+        System.out.println(RandomGenerator.getRandomPersonDescription());
+
     }
 
 }

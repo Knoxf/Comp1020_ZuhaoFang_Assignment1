@@ -3,7 +3,8 @@ Place class
 Thing class
 4
 [Knox,Amy,Mush,Skr]
--1
-1
 true
 false
+Already remove item Amy
+[Knox,Mush,Skr]
+Invincible Mitkumar

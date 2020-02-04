@@ -9,7 +9,7 @@ public class Person {
     }
 
     public Person(){
-
+        RandomGenerator.getRandomPersonDescription();
     }
 
     public String toString(){          // To String method

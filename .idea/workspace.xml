@@ -27,6 +27,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Comp1020_lab2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fzh64\Documents\Comp1020_ZuhaoFang_Assignment1\src" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.TestClass">
     <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestClass" />
@@ -82,29 +87,33 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="600" y="371" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1504.963@0.0.1504.963" timestamp="1579879085512" />
-    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1580224558129">
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1580769740726">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1580224558129" />
-    <state width="1461" height="181" key="GridCell.Tab.0.bottom" timestamp="1580761741768">
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1580769740726" />
+    <state width="1126" height="212" key="GridCell.Tab.0.bottom" timestamp="1580784177558">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="181" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1580761741768" />
-    <state width="1461" height="181" key="GridCell.Tab.0.center" timestamp="1580761741766">
+    <state width="1126" height="212" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1580784177558" />
+    <state width="1126" height="212" key="GridCell.Tab.0.center" timestamp="1580784177558">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="181" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1580761741766" />
-    <state width="1461" height="181" key="GridCell.Tab.0.left" timestamp="1580761741766">
+    <state width="1126" height="212" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1580784177558" />
+    <state width="1126" height="212" key="GridCell.Tab.0.left" timestamp="1580784177558">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="181" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1580761741766" />
-    <state width="1461" height="181" key="GridCell.Tab.0.right" timestamp="1580761741767">
+    <state width="1126" height="212" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1580784177558" />
+    <state width="1126" height="212" key="GridCell.Tab.0.right" timestamp="1580784177558">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="181" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1580761741767" />
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1580259340345">
+    <state width="1126" height="212" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1580784177558" />
+    <state x="37" y="85" key="new project wizard" timestamp="1580769744141">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1580259340345" />
+    <state x="37" y="85" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1580769744141" />
+    <state x="415" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1580780528002">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="415" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1580780528002" />
   </component>
 </project>

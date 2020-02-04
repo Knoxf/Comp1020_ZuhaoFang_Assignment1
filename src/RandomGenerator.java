@@ -13,7 +13,7 @@ public class RandomGenerator{
 
 	// --- Names --- 
 	private static String[] randomNames = {"Talha","Ayman","Mehidi","Cem","Chaahna","Muskaan","Harleen","Dhruv","Tasnuva","Daehwan","HeeJeong","Petro","Rahul","Minh","Peter","Bilguun","Shubhkumar","Rajit","Jida","Melvin","Manik","Diwakar","Sahil","Yujin","Abhijeet","Yevhenii","Melvin","Rubait","Valeria","Al Amin","Mustafa","Zeel","Zuhao","Mostofa","Zhaolin","Nishil","Anirudh","Oluwasoji","Zhuobin","Weiyi","Tahmina","Krish","Hai","Osamah","Anuj","Mitkumar","Thai","Mebin","Jisu","Chongrui","Rizaldi","Solbee"};
-	
+	private static String[] randomVerbs = {"Invincible","Meaningless","Invincible", "Unbeaten", "Yellow-bellied"};
 	// --- Item generation ---	
 	// Not used in A1 (yet)
 	// Generate a random item name
@@ -99,5 +99,13 @@ public class RandomGenerator{
 		randomNum = min + (int)(random * range);
 
 		return randomNum;
+	}
+
+	public static String getRandomPersonDescription(){
+		int indexName = randomRoll(0,randomNames.length);              //random roll to get name
+		int indexVerbs = randomRoll(0,randomVerbs.length);             //random roll to get verb
+		String returnNameVerb = randomVerbs[indexVerbs] + " " + randomNames[indexName];
+		return returnNameVerb;
+
 	}
 }
