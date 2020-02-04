@@ -21,7 +21,8 @@ public class Place {
     }
 
     public String getPeople(){
-
+        Person peoples = new Person();
+        return peoples.toString();
     }
 
     public void addPerson(Person toAdd){
@@ -29,6 +30,22 @@ public class Place {
     }
 
     public boolean removePerson(Person toRemove){
-        if(people.containsPerson(toRemove) )
+        boolean isfound = false;
+
+        if(people.containsPerson(toRemove) ==true){
+            people.removePerson(toRemove);
+            isfound = true;
+        }else{
+            isfound = false;
+        }
+        return isfound;
+    }
+
+    public int countPeople(){
+        return people.size();
+    }
+
+    public boolean contains(Person tofind){
+        return people.containsPerson(tofind);
     }
 }
