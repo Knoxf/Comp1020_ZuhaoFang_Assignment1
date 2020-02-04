@@ -30,15 +30,15 @@ public class Place {
     }
 
     public boolean removePerson(Person toRemove){
-        boolean isfound = false;
+        boolean foundToRemove = false;
 
         if(people.containsPerson(toRemove) ==true){
             people.removePerson(toRemove);
-            isfound = true;
+            foundToRemove = true;
         }else{
-            isfound = false;
+            foundToRemove = false;
         }
-        return isfound;
+        return foundToRemove;
     }
 
     public int countPeople(){

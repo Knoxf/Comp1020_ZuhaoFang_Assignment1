@@ -55,7 +55,10 @@ public class PartySim{
 	// Create a new list of people by selecting from the names array. 
 	// Create int number of people, 
 	public static PersonList createPeople(int number){
-		PersonList list;
+		PersonList list = new PersonList();      //created new personList
+		for(int i=0;i<number;i++){                   //created int number of people
+			list.addPerson();
+		}
 
 		return list; // Return the list / array
 	}

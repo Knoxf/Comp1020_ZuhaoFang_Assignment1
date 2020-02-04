@@ -1,7 +1,7 @@
 public class PersonList {
 
     int counter = 0;
-    Person[] thePersonArray;   //Created PersonList array and hold all data
+    private Person[] thePersonArray;   //Created PersonList array and hold all data
 
     public PersonList(){
         int maxSize = 100;    //credit the maxSize of person list
