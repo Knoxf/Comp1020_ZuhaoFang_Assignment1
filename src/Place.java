@@ -22,9 +22,7 @@ public class Place {
 
     public String getPeople(){
         Person peoples = new Person();
-        String str = "[";
-
-        for
+        return peoples.toString();
     }
 
     public void addPerson(Person toAdd){

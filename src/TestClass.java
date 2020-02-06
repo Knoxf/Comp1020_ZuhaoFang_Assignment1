@@ -38,7 +38,9 @@ public class TestClass {
 
         System.out.println(RandomGenerator.getRandomPersonDescription());
 
-        System.out.println(PartySim.createPeople(4).toString());
+        System.out.println(PartySim.createPeople(6).toString());
+        PartySim sim = new PartySim();
+        System.out.println(sim.wholePartyToString(PartySim.createPeople(6)));
 
     }
 

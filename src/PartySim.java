@@ -50,10 +50,12 @@ public class PartySim{
 
 	// Print out a list of all Persons at the Place. 
 	// Print out the people they each talked to as well as friends (if you got that far)
-	private String wholePartyToString(PersonList partyPeople){
-		// it should be well formatted and clear for full marks. 
+	public String wholePartyToString(PersonList partyPeople){
+		// it should be well formatted and clear for full marks.
+		String allPeople = "There has those friend sit together ";
+		allPeople += partyPeople.toString();
 
-		return "Not Implimented Yet";
+		return allPeople;
 	}
 	
 	// ----- Utility methods -----  
@@ -61,10 +63,9 @@ public class PartySim{
 	// Create int number of people, 
 	public static PersonList createPeople(int number){
 		PersonList list = new PersonList();      //created new personList
-		newPeople = new Person(RandomGenerator.getRandomName(),RandomGenerator.getRandomPersonDescription());
 
-		//Person newPerson = new Person(RandomGenerator.getRandomName(),RandomGenerator.getRandomPersonDescription());       // Call the Person object get name and the description
 		for(int i=0;i<number;i++){                   //created int number of people
+			newPeople = new Person(RandomGenerator.getRandomName(),RandomGenerator.getRandomPersonDescription());
 			list.addPerson(newPeople);
 		}
 
