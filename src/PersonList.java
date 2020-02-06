@@ -6,9 +6,23 @@ public class PersonList {
     public PersonList(){
         int maxSize = 100;    //credit the maxSize of person list
         thePersonArray = new Person[maxSize];   // instance the array of person list
+/*
+        for(int i=0;i<maxSize;i++){
+            if(thePersonArray[i] != null){
+                counter++;
+            }
+        }
+      //check if any number is not null and let counter++ to get how many data on the array
+      //This is java file come with Professior's common
 
 
-        //check if any number is not null and let counter++ to get how many data on the array
+      //but already in the size() method. i do not know if still need do in this constructer.
+      //leave the for loop and if statement in this constructer double check later if still need those
+      //two statement to compare this array is contain null value or do no need thouse two statement
+
+ */
+
+
     }
 
     public void addPerson(Person newPerson){

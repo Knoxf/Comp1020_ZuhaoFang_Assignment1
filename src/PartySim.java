@@ -5,9 +5,14 @@ Think of simulation type games such as the Sims. This is a very simple version.
 We will increase the complexity later.
 */
 public class PartySim{
+
+	private PersonList allPeople;
+	private Place getPlace;
+	private static Person newPeople;
 	
 	// Its a party, only simulated. Generate some guests, assign them to mingle, then print them out in the end (including who they talked to). 
 	public static void main(String[] args){
+		PartySim theSim = new PartySim();
 
 		// Eg, should test on other list sizes, at least {0,1,2,3,4,5}
 		PersonList list = createPeople(4);
@@ -56,8 +61,11 @@ public class PartySim{
 	// Create int number of people, 
 	public static PersonList createPeople(int number){
 		PersonList list = new PersonList();      //created new personList
+		newPeople = new Person(RandomGenerator.getRandomName(),RandomGenerator.getRandomPersonDescription());
+
+		//Person newPerson = new Person(RandomGenerator.getRandomName(),RandomGenerator.getRandomPersonDescription());       // Call the Person object get name and the description
 		for(int i=0;i<number;i++){                   //created int number of people
-			list.addPerson();
+			list.addPerson(newPeople);
 		}
 
 		return list; // Return the list / array

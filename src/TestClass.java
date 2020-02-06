@@ -38,6 +38,8 @@ public class TestClass {
 
         System.out.println(RandomGenerator.getRandomPersonDescription());
 
+        System.out.println(PartySim.createPeople(4).toString());
+
     }
 
 }

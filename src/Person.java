@@ -1,3 +1,5 @@
+import java.util.RandomAccess;
+
 public class Person {
 
     String name;    //Add new String here
@@ -9,7 +11,7 @@ public class Person {
     }
 
     public Person(){
-        RandomGenerator.getRandomPersonDescription();
+        Person newPeople = new Person(RandomGenerator.getRandomName(), RandomGenerator.getRandomPersonDescription());
     }
 
     public String toString(){          // To String method
