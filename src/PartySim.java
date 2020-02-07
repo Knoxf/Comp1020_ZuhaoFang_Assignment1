@@ -45,6 +45,15 @@ public class PartySim{
 	// You should verify that the two Person objects are different and reselect a person
 	// until you have a unique one. 
 	private void mingle(Place toPartyAt){
+		int totalPeople = toPartyAt.countPeople();    // pull out the number of people from place object
+
+		if(totalPeople % 2 == 0){
+
+		}if(totalPeople % 2 != 0){
+
+		}
+
+
 		
 	}
 
@@ -62,14 +71,20 @@ public class PartySim{
 	// Create a new list of people by selecting from the names array. 
 	// Create int number of people, 
 	public static PersonList createPeople(int number){
-		PersonList list = new PersonList();      //created new personList
 
+		/*
 		for(int i=0;i<number;i++){                   //created int number of people
 			newPeople = new Person(RandomGenerator.getRandomName(),RandomGenerator.getRandomPersonDescription());
-			list.addPerson(newPeople);
+			allPer.addPerson(newPeople);
 		}
 
 		return list; // Return the list / array
+
+		 */
+		allPeople = new PersonList();
+		for(int i=0; i<number; i++){
+			newPeople = new Person()
+		}
 	}
 
 	//  ----- Stretch goal - Major Feature [ ] ----- 

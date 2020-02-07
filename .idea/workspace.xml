@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ee41f5b-f2b8-4113-b91a-5f3ca2a12c40" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,27 +32,15 @@
       <recent name="C:\Users\fzh64\Documents\Comp1020_ZuhaoFang_Assignment1\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="应用程序.TestClass">
-    <configuration name="TestClass" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestClass">
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestClass" />
       <module name="Comp1020_ZuhaoFang_Assignment1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestClass" />
       <module name="Comp1020_ZuhaoFang_Assignment1" />
       <method v="2">
@@ -62,18 +49,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.TestClass" />
+        <item itemvalue="Application.TestClass" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -94,30 +83,30 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="208" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1580229791556" />
-    <state x="600" y="371" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580831771595">
+    <state x="600" y="371" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581106518431">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="600" y="371" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1504.963@0.0.1504.963" timestamp="1580831771595" />
+    <state x="600" y="371" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1504.963@0.0.1504.963" timestamp="1581106518431" />
     <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1580769740726">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1580769740726" />
-    <state width="1126" height="260" key="GridCell.Tab.0.bottom" timestamp="1580955772209">
+    <state width="1461" height="318" key="GridCell.Tab.0.bottom" timestamp="1581106669719">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1126" height="260" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1580955772209" />
-    <state width="1126" height="260" key="GridCell.Tab.0.center" timestamp="1580955772205">
+    <state width="1461" height="318" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1581106669719" />
+    <state width="1461" height="318" key="GridCell.Tab.0.center" timestamp="1581106669719">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1126" height="260" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1580955772205" />
-    <state width="1126" height="260" key="GridCell.Tab.0.left" timestamp="1580955772205">
+    <state width="1461" height="318" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1581106669719" />
+    <state width="1461" height="318" key="GridCell.Tab.0.left" timestamp="1581106669719">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1126" height="260" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1580955772205" />
-    <state width="1126" height="260" key="GridCell.Tab.0.right" timestamp="1580955772205">
+    <state width="1461" height="318" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1581106669719" />
+    <state width="1461" height="318" key="GridCell.Tab.0.right" timestamp="1581106669719">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1126" height="260" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1580955772205" />
+    <state width="1461" height="318" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1581106669719" />
     <state x="37" y="85" key="new project wizard" timestamp="1580769744141">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
