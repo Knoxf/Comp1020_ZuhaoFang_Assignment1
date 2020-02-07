@@ -52,7 +52,7 @@ public class PartySim{
 	// Print out the people they each talked to as well as friends (if you got that far)
 	public String wholePartyToString(PersonList partyPeople){
 		// it should be well formatted and clear for full marks.
-		String allPeople = "There has those friend sit together ";
+		String allPeople = "There has those friend sit together: ";
 		allPeople += partyPeople.toString();
 
 		return allPeople;

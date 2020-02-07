@@ -1,12 +1,17 @@
+============================ Phase 1 test ============================
 Person class
 Place class
 Thing class
+============================ Phase 2 test ============================
 4
-[Knox,Amy,Mush,Skr]
+Knox,Amy,Mush,Skr
+============================ Phase 3 test ============================
 true
 false
 Already remove item Amy
-[Knox,Mush,Skr]
-Yellow-bellied Shubhkumar
-[Oluwasoji,Melvin,Jida,Mitkumar,Daehwan,Jida]
-There has those friend sit together [Talha,Mebin,Bilguun,Mustafa,Solbee,Yujin]
+Knox,Mush,Skr
+============================ Phase 4 test ============================
+Yellow-bellied Anuj
+============================ Phase 5 test ============================
+Melvin,Mustafa,Yujin,Talha,Sahil,Rajit
+There has those friend sit together: Zuhao,Chaahna,Yujin,Mustafa,Anuj,Jida

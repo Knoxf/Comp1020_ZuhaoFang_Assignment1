@@ -46,14 +46,14 @@ public class PersonList {
     }
 
     public String toString(){
-        String str = "[";
+        String str = "";
 
         for(int i =0; i<thePersonArray.length; i++){
             if(thePersonArray[i] != null){                               //If thePersonArray[i] not null
                 str = str + thePersonArray[i].toString() + ",";          //add the name to the Str
             }
         }
-        return str.substring(0, str.length()-1) + "]";       //delete the last one character this one is delete the " , " and return the string
+        return str.substring(0, str.length()-1) + "";       //delete the last one character this one is delete the " , " and return the string
     }
 
     private int findIndex(Person key){                //Find the gived person object Index number
