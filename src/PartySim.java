@@ -1,3 +1,5 @@
+import javax.management.loading.PrivateMLet;
+
 /*
 This class will be our main gameplay loop (for now). 
 It will later include a turn counter (turn based) and listen for input from the player. 
@@ -7,16 +9,22 @@ We will increase the complexity later.
 public class PartySim{
 
 	private PersonList allPeople;
-	private Place getPlace;
+
 	private static Person newPeople;
-	
+
 	// Its a party, only simulated. Generate some guests, assign them to mingle, then print them out in the end (including who they talked to). 
 	public static void main(String[] args){
-		PartySim theSim = new PartySim();
-
+		PartySim theSim = new PartySim();      // To created local object that can call local method
+		Place partyPlace;
 		// Eg, should test on other list sizes, at least {0,1,2,3,4,5}
-		PersonList list = createPeople(4);
+		PersonList list = createPeople(4);     // Set the PeopleList size
 
+		System.out.println(theSim.wholePartyToString(list));   // Print all the People at program begging
+		System.out.println("Those people in this place: " + RandomGenerator.getRandomLocationName());
+
+		for(int i=0; i<list.size();i++){
+			//theSim.mingle(partyPlace);
+		}
 		// call mingle a few times to talk to random people.
 		// then output the result		
 
@@ -47,14 +55,12 @@ public class PartySim{
 	private void mingle(Place toPartyAt){
 		int totalPeople = toPartyAt.countPeople();    // pull out the number of people from place object
 
-		if(totalPeople % 2 == 0){
-
-		}if(totalPeople % 2 != 0){
-
+		for(int i=0;i<totalPeople;i++){
+			//toPartyAt.
 		}
 
 
-		
+
 	}
 
 	// Print out a list of all Persons at the Place. 
@@ -71,20 +77,14 @@ public class PartySim{
 	// Create a new list of people by selecting from the names array. 
 	// Create int number of people, 
 	public static PersonList createPeople(int number){
-
-		/*
+		PersonList list = new PersonList();
 		for(int i=0;i<number;i++){                   //created int number of people
 			newPeople = new Person(RandomGenerator.getRandomName(),RandomGenerator.getRandomPersonDescription());
-			allPer.addPerson(newPeople);
+			list.addPerson(newPeople);
 		}
 
 		return list; // Return the list / array
 
-		 */
-		allPeople = new PersonList();
-		for(int i=0; i<number; i++){
-			newPeople = new Person()
-		}
 	}
 
 	//  ----- Stretch goal - Major Feature [ ] ----- 
